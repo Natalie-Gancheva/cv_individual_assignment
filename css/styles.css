@@ -14,15 +14,19 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #B980D2;
+    background-image: -webkit-linear-gradient(270deg,rgba(169,56,225,1.00) 0%,rgba(255,255,255,1.00) 50.67%,rgba(141,4,176,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(169,56,225,1.00) 0%,rgba(255,255,255,1.00) 50.67%,rgba(141,4,176,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(169,56,225,1.00) 0%,rgba(255,255,255,1.00) 50.67%,rgba(141,4,176,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(169,56,225,1.00) 0%,rgba(255,255,255,1.00) 50.67%,rgba(141,4,176,1.00) 100%);
 }
 
 .resume-main {
-	background-color: #fffefc;
+    background-color: #E19BE5;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+    background-color: #E3C9F6;
 }
 
 /* Styles for lists in the document */
@@ -48,4 +52,42 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+.fw-bolder {
+    color: #623793;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    font-size: 59px;
+    text-shadow: 10px 0 16px #FFFFFF;
+    font-weight: lighter;
+}
+
+.subtext{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: lighter;
+    font-size: 22px;
+    letter-spacing: 3px;
+    text-shadow: 1px 0px 5px #FFFFFF;
+    color: #8A1DB5;
+    text-align: center;
+    min-width: 0px;
+}
+
+h4 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bolder;
+}
+
+h5 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+
+li {
+	font-family: 'Amatic SC', cursive;
+}
+
+h2 {
+	font-family: 'Gloria Hallelujah', cursive;
 }
